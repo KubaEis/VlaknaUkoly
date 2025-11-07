@@ -110,6 +110,7 @@ public class Main {
         System.out.println(fk.faktorialLong(10L));
         System.out.println(fk.faktorialBigInteger(100));
         System.out.println(fk.faktorialBigInteger(1000));
+
         Long[] cisla = {2L, 23L, 1012L, 100123L, 3L, 21L};
         for (int i = 0; i < cisla.length; i++) {
             System.out.println(fk.faktorialBigInteger(cisla[i]));
