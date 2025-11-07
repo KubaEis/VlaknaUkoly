@@ -106,7 +106,10 @@ public class Main {
         trojcifernaDelitelnaCtyrma.start();
         ctyrcifernaDelitelnaStem.start();
         prvocislaMensiNezTisic.start();*/
-
+        Faktorial fk = new Faktorial();
+        System.out.println(fk.faktorialLong(10L));
+        System.out.println(fk.faktorialBigInteger(100));
+        System.out.println(fk.faktorialBigInteger(1000));
 
 
     }
